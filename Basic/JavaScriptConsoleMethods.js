@@ -44,3 +44,18 @@ console.log("The Use of the console count methods : ")
 for(let i=0;i<5;i++){ 
 	console.count(i); 
 }
+
+// console.group() and console.groupEnd() method 
+console.group('simple'); 
+console.warn('warning!'); 
+console.error('error here'); 
+console.log('vivi vini vici'); 
+console.groupEnd('simple'); 
+console.log('new section'); 
+
+// Custom Console log example 
+const spacing = '10px'; 
+const styles = 
+	`padding: ${spacing}; background-color: white; color: green; font-style: 
+	italic; border: 1px solid black; font-size: 2em;`; 
+console.log('%cGeeks for Geeks', styles); 
