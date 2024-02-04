@@ -20,5 +20,6 @@ const x1 = ["Geeks", "for", "Geeks"];
 for (const [index, element] of x1.entries())
 	console.log(index, element);
 
-
     
+
+
