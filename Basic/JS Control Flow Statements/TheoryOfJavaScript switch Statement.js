@@ -27,5 +27,17 @@ switch (expression) {
 }
 Parameters
 expression: The expression which is to be evaluated.
+
+
+Explanation
+The expression can be of type numbers or strings.
+Duplicate case values are not allowed.
+The default statement is optional. If the expression passed to the switch does not match the value in any case then the statement under default will be executed.
+The break statement is used inside the switch to terminate a statement sequence.
+The break statement is optional. If omitted, execution will continue on into the next case.
+Cases are compared strictly.
+
+
+
 */
 
